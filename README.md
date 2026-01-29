@@ -515,36 +515,47 @@ Shorter videos generate faster.
 ## FAQ
 
 Q: Is this really free?
+
 A: Yes! FAL.ai offers 3-4 free videos/day. YouTube uploads are free. Only cost is internet.
 
 Q: Will YouTube ban my accounts?
+
 A: Not if you follow guidelines. The staggered upload system distributes content properly across different accounts. No spam, legitimate content.
 
 Q: What if an API goes down?
+
 A: System has 3 backup APIs (FAL, Runway, Replicate). If one fails, it tries the next.
 
 Q: How much time does this take?
+
 A: Setup: 30-45 minutes. Daily maintenance: 0 minutes (fully automated).
 
 Q: How many videos will I upload?
+
 A: Per day: 120+ uploads. Per month: 3,600+ uploads.
 
 Q: Can I customize the videos?
+
 A: Yes! Edit config.py to change prompts, duration, music, colors, titles, and more.
 
 Q: How do I make money?
+
 A: Once channel has 1,000 subscribers + 4,000 watch hours, enable AdSense. Earnings vary but can be $100-1,000+/month per channel.
 
 Q: Can I run multiple instances?
+
 A: Yes! Run continuous_scheduler.py in multiple terminals for 2x, 3x, etc. uploads.
 
 Q: How do I stop it?
+
 A: Press Ctrl+C in terminal, or: pkill -f continuous_scheduler.py
 
 Q: What if my computer crashes?
+
 A: Continuous mode logs everything. When restarted, system picks up where it left off. No lost videos.
 
 Q: Is my YouTube account safe?
+
 A: Yes! System uses official YouTube API with OAuth authentication. No passwords stored. Same security as YouTube's official apps.
 
 ---
