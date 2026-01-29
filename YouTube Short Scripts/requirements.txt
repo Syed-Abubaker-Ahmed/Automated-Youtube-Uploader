@@ -1,0 +1,17 @@
+# INSTALL MISSING DEPENDENCIES ONLY: pip install -r requirements.txt
+# This only downloads packages not already installed
+# To see what would be installed without installing: pip install -r requirements.txt --dry-run
+
+moviepy==1.0.3
+requests==2.31.0
+python-dotenv==1.0.0
+schedule==1.2.0
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+google-api-python-client==2.108.0
+Pillow==10.1.0
+pydub==0.25.1
+yt-dlp>=2024.1
+gtts==2.4.0
+google-cloud-texttospeech==2.14.1
+ffmpeg-python>=0.2.0
